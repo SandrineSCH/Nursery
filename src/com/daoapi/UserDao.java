@@ -6,7 +6,7 @@ import java.util.List;
 
 
 public interface UserDao {
-    public boolean sevaOrUpdate(UsersEntity user);
+    public boolean saveOrUpdate(UsersEntity user);
     public List<UsersEntity> list();
     public boolean delete(UsersEntity user);
 }
